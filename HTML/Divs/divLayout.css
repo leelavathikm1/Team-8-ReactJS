@@ -1,0 +1,37 @@
+div#container {
+    border: 2px solid;
+}
+div#header {
+    background-color: black;
+    color: white;
+    margin: 5px;
+}
+#header h1 {
+    text-align: center;
+    padding: 15px;
+}
+.ParentDiv {
+    margin: 5px;
+    border: 2px solid;
+    overflow: auto;
+}
+div#states {
+    width: 200px;
+    height: 170px;
+    background-color: gray;
+    float: left;
+}
+div#stateDetails {
+    margin-left: 10px;
+    width: 720px;
+    float: right;
+}
+div#footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+#footer p {
+    padding: 15px;
+}
