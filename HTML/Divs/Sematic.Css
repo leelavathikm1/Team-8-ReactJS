@@ -1,0 +1,55 @@
+div#container {
+    border: 2px solid;
+}
+header {
+    border: 2px solid;
+    margin: 5px;
+}
+p {
+    padding: 10px;
+    text-align: center;
+}
+nav {
+    border: 2px solid;
+    margin: 5px;
+}
+li {
+    display: inline;
+    margin-right: 110px;
+}
+div#parentSection {
+    margin: 5px;
+    overflow: auto;
+}
+div#sectionDivs {
+    width: 600px;
+    float: left;
+}
+section {
+    width: 600px;
+    border: 2px solid;
+    height: 95px;
+    text-align: center;
+}
+article {
+    border: 2px solid;
+    width: 600px;
+    height: 95px;
+    margin-top: 5px;
+    text-align: center;
+    background-color: red;
+}
+aside {
+    border: 2px solid;
+    width: 360px;
+    float: right;
+    height: 200px;
+    text-align: center;
+}
+footer {
+    border: 2px solid;
+    text-align: center;
+    height: 50px;
+    margin: 5px;
+    background-color: blue;
+}
