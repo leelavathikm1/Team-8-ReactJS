@@ -1,0 +1,24 @@
+div#headerDiv {
+    background-color: #897d7d;
+    color: white;
+    overflow: auto;
+}
+header {
+    width: 750px;
+    margin: 0 auto;
+}
+div#basic {
+    width: 250px;
+    float: left;
+    margin: 12px;
+}
+nav {
+    width: 450px;
+    float: right;
+    background-color: darkgray;
+    margin: 12px;
+}
+li {
+    display: inline;
+    margin-right: 27px;
+}
