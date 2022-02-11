@@ -22,3 +22,43 @@ li {
     display: inline;
     margin-right: 27px;
 }
+div#imageDiv {
+    width: 750px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+#imageDiv img {
+    width: 750px;
+}
+div#parentDiv {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 10px;
+}
+.divs {
+    width: 230px;
+    float: left;
+    margin: 0 28px 0 0;
+}
+figure {
+    margin-left: 0;
+    border: 1px solid;
+    padding: 5px;
+    width: 220px;
+}
+figure img {
+    width: 220px;
+}
+.div3 {
+    width: 232px;
+    float: right;
+}
+figcaption a {
+    float: right;
+    color: orange;
+    font-size: 10px;
+}
+strong {
+    font-style: italic;
+}
