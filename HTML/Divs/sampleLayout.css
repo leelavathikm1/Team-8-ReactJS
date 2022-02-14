@@ -3,6 +3,10 @@ div#headerDiv {
     color: white;
     overflow: auto;
 }
+p {
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
 header {
     width: 750px;
     margin: 0 auto;
@@ -61,4 +65,35 @@ figcaption a {
 }
 strong {
     font-style: italic;
+}
+div#articleParent {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+    margin-top: 10px;
+}
+article {
+    width: 340px;
+    float: left;
+}
+div#articleImage {
+    width: 330px;
+    float: right;
+    border: 1px solid;
+    padding: 3px;
+    margin-top: 30px;
+}
+#articleImage img {
+    width: 330px;
+}
+article a{
+    text-decoration: none;
+    font-size: 13px;
+    color: orange;
+
+}
+#articleA a {
+    font-size: 10px;
+    text-decoration: underline;
+    float: right;
 }
