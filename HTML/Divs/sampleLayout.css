@@ -16,13 +16,13 @@ div#basic {
     float: left;
     margin: 12px;
 }
-nav {
+header nav {
     width: 450px;
     float: right;
     background-color: darkgray;
     margin: 12px;
 }
-li {
+header nav ul li {
     display: inline;
     margin-right: 27px;
 }
@@ -96,4 +96,58 @@ article a{
     font-size: 10px;
     text-decoration: underline;
     float: right;
+}
+div#linkSections {
+    background-color: #463f3f;
+}
+div#divsectionDivs {
+    width: 750px;
+    margin: 0 auto;
+    overflow: auto;
+}
+section {
+    width: 180px;
+    float: left;
+}
+section nav {
+    width: 170px;
+}
+section nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+section nav ul li {
+    line-height: 1.5;
+    border-bottom: 1px solid;
+}
+
+section h3 {
+    font-size: 13px;
+}
+section nav ul li a {
+    text-decoration: none;
+    font-size: 12px;
+    color: orange;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+footer {
+    background-color: #262323;
+    margin-top: 0px;
+}
+div#footerDiv {
+    width: 750px;
+    margin: 0 auto;
+    color: white;
+    overflow: auto;
+}
+#footerDiv p {
+    font-size: 13px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+    float: left;
+   
+}
+footer #rightPara{
+    float: right;
+
 }
