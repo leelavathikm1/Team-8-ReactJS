@@ -26,6 +26,14 @@ header nav ul li {
     display: inline;
     margin-right: 27px;
 }
+
+header nav ul li:hover{
+    color: orange;
+    font-size: 30px;
+    background-color: aqua;
+    text-decoration: underline;
+    text-transform: lowercase;
+}
 div#imageDiv {
     width: 750px;
     margin: 0 auto;
